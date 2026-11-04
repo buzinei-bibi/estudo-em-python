@@ -1,8 +1,12 @@
-# material de estudos em python
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="logo do python" width="120">
+</p>
+
+# MATERIAL DE ESTUDOS EM PYTHON
 
 python foi o meu começo na programação. aqui está tudo o que aprendi em sala de aula: os conceitos, com as minhas anotações nos comentários, e os exercícios que fiz para treinar.
 
-## como está organizado
+## COMO ESTÁ ORGANIZADO
 
 as pastas estão numeradas na ordem em que eu aprendi cada assunto. dentro de cada uma ficam os arquivos com a explicação do conceito e uma pasta `exercícios/` com a prática daquele assunto.
 
@@ -17,7 +21,7 @@ as pastas estão numeradas na ordem em que eu aprendi cada assunto. dentro de ca
 | [07 · classes e objetos](07-classes-e-objetos) | orientação a objetos: classes, `__init__`, atributos e métodos |
 | [08 · chatbots com ia](08-chatbots-com-ia) | do chatbot feito só com `if`/`else` até a inteligência artificial com LangChain |
 
-## chatbots com ia, passo a passo
+## CHATBOTS COM IA, PASSO A PASSO
 
 | etapa | o que aprendi |
 | --- | --- |
@@ -28,7 +32,7 @@ as pastas estão numeradas na ordem em que eu aprendi cada assunto. dentro de ca
 | [05 · prompt e intenção](08-chatbots-com-ia/05-prompt-e-intenção) | engenharia de prompt, classificar a intenção da mensagem e responder conforme o assunto |
 | [06 · interface com streamlit](08-chatbots-com-ia/06-interface-com-streamlit) | uma página web para conversar com o chatbot, com histórico e configurações |
 
-## como rodar
+## COMO RODAR
 
 os arquivos das pastas 01 a 07 só precisam do python instalado:
 
@@ -47,7 +51,7 @@ pip install langchain langchain-groq langchain-community streamlit
 - a etapa 04 precisa também de `langchain-classic`, `pypdf`, `faiss-cpu` e `sentence-transformers`, e de um arquivo `documento.pdf` na mesma pasta
 - a etapa 06 roda com `streamlit run chat_interface.py`, de dentro da pasta dela
 
-## o que aprendi
+## O QUE APRENDI
 
 - a lógica de programação desde o começo
 - a tomar decisões no código com `if` e `else`
